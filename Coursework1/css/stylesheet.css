@@ -1,0 +1,167 @@
+
+body{                 <!-- changes bacground color of pages .-->
+background-size: auto;
+background-color: skyblue;
+
+}
+
+
+header {
+  text-align: center; <!-- HEADER SECTION start-->
+}
+
+header .simp{
+  font-family: Bradley Hand ITC, Freestyle Script, sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  color: yellow;
+  text-shadow: -1px -1px 0  #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+header h1 {
+  font-family:  Bahnschrift, Arial, sans-serif;     <!-- Changes to text elements in header-->
+  font-size: 4em;
+  font-weight: 700;
+  color: yellow;
+  text-shadow: 4px 4px 2px black;     <!-- Header Section END-- >
+}
+
+.link {
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  font-size: 2em;
+  font-weight: 700;
+  border: 5px black solid;
+  border-radius: 1px;
+}
+
+
+.externallink {
+  background-color: rgba(250, 248, 14, 0.9); color: black;
+  border: 10px;
+  box-shadow: 3px 10px;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: Arial Black, Calibri, sans-serif;
+}
+
+a{
+  color: blue
+}
+
+a:hover{
+  color: purple
+}
+
+
+.info{
+  background-color: rgba(250, 248, 14, 0.9); color: black;
+  border: 10px;
+  box-shadow: 3px 10px;
+}
+
+.synopsis{
+  font-size: 1.3em;
+  font-family: Arial Rounded MT Bold, Calibri (Body), sans-serif;
+}
+
+li{
+  font-size: 1.3em;
+  font-family: Arial, Calibri, sans-serif;
+}
+
+
+
+
+.img1 {
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+  margin-left:50px;      <!-- IMAGE SECTION END-->
+}
+
+.img2 {
+  width: 200px;
+  height: 300px;
+  float: right;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.img3 {
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+  margin-left:50px;
+  margin-bottom: 100px; <!-- IMAGE SECTION END-->
+}
+
+
+
+.pright {      <!-- CAST SECTION START -->
+  text-align: left;
+  margin-right: 50px;
+  font-size: 1.25em;
+  font-family: Arial Rounded MT Bold, Calibri, sans-serif;
+}
+
+.pleft {
+  margin-left: 50px;
+  font-size: 1.25em;
+  font-family: Arial Rounded MT Bold, Calibri, sans-serif;
+}
+
+.Member1 {
+  margin-left: 50px;
+  font-size: 2em;
+  font-family: Lucida Sans, Arial, sans-serif;
+}
+
+.cast1{
+  background-color: rgba(214, 210, 100, 0.8)
+}
+
+.Member2 {
+  text-align: right;
+  margin-right: 50px;
+  padding-right: 10px;
+  font-size: 2em;
+  font-family: Lucida Sans, Arial, sans-serif;
+}
+
+.cast2{
+  background-color: rgba(214, 210, 100, 0.8)
+}
+
+.Member3 {
+  margin-left: 50px;
+  font-size: 2em;
+  font-family: Lucida Sans, Arial, sans-serif;
+}
+
+.cast3{
+  background-color: rgba(214, 210, 100, 0.8)
+}
+
+.aud1 {         <!-- AUDIO SECTION START-->
+  float: left
+}
+
+.aud2 {
+  margin-left: 50px;
+}
+
+.video {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 100px;
+}
