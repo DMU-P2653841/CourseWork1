@@ -1,5 +1,5 @@
 
-body{                   /*changes bacground color of pages .*/
+body{                   /*changes background color of pages .*/
 background-size: auto;
 background-color: skyblue;
 
@@ -18,13 +18,6 @@ header .simp{
   text-shadow: -1px -1px 0  #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;   /*added black text outline to header */
 }
 
-header h1 {
-  font-family:  Bahnschrift, Arial, sans-serif;     /* Changes to text elements in header*/
-  font-size: 4em;  /* change font (text size) */
-  font-weight: 700;   /*Changed boldness of header text*/
-  color: yellow;   /*changed text color to yellow*/
-  text-shadow: 4px 4px 2px black;       /* Header Section END*/
-}
 
 .link {
   text-align: center;   /*changed placement of text to centre*/
@@ -56,9 +49,9 @@ a:hover{
 
 
 .info{
-  background-color: rgba(250, 248, 14, 0.9); color: black;    /*changed text colours*/
-  border: 10px;   /* this adds border of10 pixels to the info class */
-  box-shadow: 3px 10px;   /*this adds a shadow to the info class of 3px horizontally 10 pixels vertically */
+  background-color: rgba(250, 248, 14, 0.9); color: black;   
+  border: 10px;   
+  box-shadow: 3px 10px;  
 }
 
 .synopsis{
