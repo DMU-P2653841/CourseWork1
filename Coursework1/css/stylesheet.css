@@ -30,7 +30,7 @@ header h1 {
   text-align: center; <!-- changed placement of text to centre-->
   color: black; <!-- changed text color to black  -->
   background-color: yellow; <!-- changed background color of links to yellow -->
-  font-size: 2em; <!-- increased font size  -->
+  font-size: 2em; <!-- increased font size by 2x  -->
   font-weight: 700; <!-- increased boldness of text -->
   border: 5px black solid; <!-- added black border to link area -->
   border-radius: 1px;
@@ -47,18 +47,18 @@ header h1 {
 }
 
 a{
-  color: blue
-}
+  color: blue 
+} <!-- changed link colours to blue  -->
 
 a:hover{
-  color: purple
-}
+  color: purple 
+}   <!-- colour of links when hovered on change to purple  -->
 
 
 .info{
-  background-color: rgba(250, 248, 14, 0.9); color: black;
-  border: 10px;
-  box-shadow: 3px 10px;
+  background-color: rgba(250, 248, 14, 0.9); color: black; <!-- changed text colours -->
+  border: 10px; <!-- this adds border of10 pixels to the info class  -->
+  box-shadow: 3px 10px; <!-- this adds a shadow to the info class of 3px horizontally 10 pixels vertically  -->
 }
 
 .synopsis{
