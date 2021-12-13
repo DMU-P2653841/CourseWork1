@@ -1,5 +1,5 @@
 
-body{                 /*changes bacground color of pages .*/
+body{                   /*changes bacground color of pages .*/
 background-size: auto;
 background-color: skyblue;
 
@@ -7,38 +7,38 @@ background-color: skyblue;
 
 
 header {
-  text-align: center; /*HEADER SECTION start*/
+  text-align: center;   /*HEADER SECTION start*/
 }
 
 header .simp{
-  font-family: Bradley Hand ITC, Freestyle Script, sans-serif; /*Changed font on header*/
-  font-size: 4em; /*change font (text size)*/
-  font-weight: 700; /*Changed boldness of header text*/
-  color: yellow; /*changed text color to yellow*/
-  text-shadow: -1px -1px 0  #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /*added black text outline to header */
+  font-family: Bradley Hand ITC, Freestyle Script, sans-serif;  /*Changed font on header*/
+  font-size: 4em;  /*change font (text size)*/
+  font-weight: 700;   /*Changed boldness of header text*/
+  color: yellow;   /*changed text color to yellow*/
+  text-shadow: -1px -1px 0  #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;   /*added black text outline to header */
 }
 
 header h1 {
   font-family:  Bahnschrift, Arial, sans-serif;     /* Changes to text elements in header*/
-  font-size: 4em; /* change font (text size) */
-  font-weight: 700; /*Changed boldness of header text*/
-  color: yellow; /*changed text color to yellow*/
-  text-shadow: 4px 4px 2px black;     /* Header Section END*/
+  font-size: 4em;  /* change font (text size) */
+  font-weight: 700;   /*Changed boldness of header text*/
+  color: yellow;   /*changed text color to yellow*/
+  text-shadow: 4px 4px 2px black;       /* Header Section END*/
 }
 
 .link {
-  text-align: center; /*changed placement of text to centre*/
-  color: black; /*changed text color to black  */
-  background-color: yellow; /*changed background color of links to yellow */
-  font-size: 2em; /*increased font size by 2x  */
-  font-weight: 700; /* increased boldness of text */
-  border: 5px black solid; /* added black border to link area */
+  text-align: center;   /*changed placement of text to centre*/
+  color: black;   /*changed text color to black  */
+  background-color: yellow;  /*changed background color of links to yellow */
+  font-size: 2em;   /*increased font size by 2x  */
+  font-weight: 700;  /* increased boldness of text */
+  border: 5px black solid;   /* added black border to link area */
   border-radius: 1px;
 }
 
 
 .externallink {
-  background-color: rgba(250, 248, 14, 0.9); color: black; /*changed background color of external link to rgba(250, 248, 14, 0.9) and text color to black  */
+  background-color: rgba(250, 248, 14, 0.9); color: black;  /*changed background color of external link to rgba(250, 248, 14, 0.9) and text color to black  */
   border: 10px;
   box-shadow: 3px 10px;
   text-align: center;
@@ -48,17 +48,17 @@ header h1 {
 
 a{
   color: blue 
-} /*changed link colours to blue*/
+}   /*changed link colours to blue*/
 
 a:hover{
   color: purple 
-}   /*colour of links when hovered on change to purple */
+}     /*colour of links when hovered on change to purple */
 
 
 .info{
-  background-color: rgba(250, 248, 14, 0.9); color: black;  /*changed text colours*/
-  border: 10px;  /* this adds border of10 pixels to the info class */
-  box-shadow: 3px 10px;  /*this adds a shadow to the info class of 3px horizontally 10 pixels vertically */
+  background-color: rgba(250, 248, 14, 0.9); color: black;    /*changed text colours*/
+  border: 10px;   /* this adds border of10 pixels to the info class */
+  box-shadow: 3px 10px;   /*this adds a shadow to the info class of 3px horizontally 10 pixels vertically */
 }
 
 .synopsis{
