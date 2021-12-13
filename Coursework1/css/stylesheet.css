@@ -49,9 +49,9 @@ a:hover{
 
 
 .info{
-  background-color: rgba(250, 248, 14, 0.9); color: black;   
-  border: 10px;   
-  box-shadow: 3px 10px;  
+  background-color: rgba(250, 248, 14, 0.9); color: black;   /* changed background colour to yellow */
+  border: 10px;   /* added border to the .info area of 10 pixels wide */
+  box-shadow: 3px 10px;  /* added bax shadow 3 pixels horizontally and 10 pixels vertically */
 }
 
 .synopsis{
