@@ -79,7 +79,7 @@ li{
   height: 300px;
   float: left;
   margin-right: 10px;
-  margin-left:50px;      <!-- IMAGE SECTION END-->
+  margin-left:50px;      
 }
 
 .img2 {
@@ -96,12 +96,12 @@ li{
   float: left;
   margin-right: 10px;
   margin-left:50px;
-  margin-bottom: 100px; <!-- IMAGE SECTION END-->
+  margin-bottom: 100px; 
 }
 
 
 
-.pright {      <!-- CAST SECTION START -->
+.pright {     
   text-align: left;
   margin-right: 50px;
   font-size: 1.25em;
@@ -146,7 +146,7 @@ li{
   background-color: rgba(214, 210, 100, 0.8)
 }
 
-.aud1 {         <!-- AUDIO SECTION START-->
+.aud1 {         
   float: left
 }
 
