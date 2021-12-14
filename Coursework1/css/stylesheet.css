@@ -1,16 +1,16 @@
 
-body{                   /*this changes background color of all pages (home and cast pages).*/
+body{                   /*this mades it so only code in the body section are effected by the style changes*/
 background-size: auto;
-background-color: skyblue;
+background-color: skyblue;  /*this changes background color of all pages (home and cast pages).*/
 
 }
 
 
-header {
+header {  /*this mades it so only code in the header section are effected by the style changes*/
   text-align: center;   /*HEADER SECTION start, aligned header text to the centre*/
 }
 
-header .simp{
+header .simp{ /*this mades it so only code in the header and .simp section are effected by the style changes*/
   font-family: Bradley Hand ITC, Freestyle Script, sans-serif;  /*Changed font on header*/
   font-size: 4em;  /*change font (text size)*/
   font-weight: 700;   /*Changed boldness of header text*/
@@ -19,18 +19,18 @@ header .simp{
 }
 
 
-.link {
+.link { /*this mades it so only code in the link section are effected by the style changes*/
   text-align: center;   /*changed placement of text to centre*/
   color: black;   /*changed text color to black  */
   background-color: yellow;  /*changed background color of links to yellow */
   font-size: 2em;   /*increased font size by 2x  */
   font-weight: 700;  /* increased boldness of text */
   border: 5px black solid;   /* added black border to link area */
-  border-radius: 1px;
+  border-radius: 1px; /*this added a small curve of 1 pixels to the boxes */
 }
 
 
-.externallink {
+.externallink { /*this mades it so only code in the class .externallink section are effected by the style changes*/
   background-color: rgba(250, 248, 14, 0.9); color: black;  /*changed background color of external link to rgba(250, 248, 14, 0.9) and text color to black  */
   border: 10px; /*added a black border 10 px*/
   box-shadow: 3px 10px; /*this adds a black drop shadow like feature 3 pixels across 10 pixels down*/
@@ -39,16 +39,16 @@ header .simp{
   font-family: Arial Black, Calibri, sans-serif; /*changed text font to Arial Black first if that is not supported switches to Calibri and then sans-serif*/
 }
 
-a{
+a{  /*this mades it so only code in the anchor are effected by the style changes*/
   color: blue 
 }   /*changed link colours to blue*/
 
-a:hover{
+a:hover{  /*this mades it so only code in the class .anchor are effected by the style changes and the hover allows changes when links are hovered over*/
   color: purple 
 }     /*colour of links when hovered on change to purple */
 
 
-.info{
+.info{  /*this mades it so only code in the class .info section are effected by the style changes*/
   background-color: rgba(250, 248, 14, 0.9); color: black;   /* changed background colour to yellow */
   border: 10px;   /* added border to the .info area of 10 pixels wide */
   box-shadow: 3px 10px;  /* added bax shadow 3 pixels horizontally and 10 pixels vertically */
@@ -59,15 +59,15 @@ a:hover{
   font-family: Arial Rounded MT Bold, Calibri (Body), sans-serif; /*this changes the font of the text */
 }
 
-li{
+li{ /*this mades it so only code in the list section are effected by the style changes*/
   font-size: 1.3em; /*this increases font size by 0.3 of the original text size*/
-  font-family: Arial, Calibri, sans-serif;
+  font-family: Arial, Calibri, sans-serif;  /*this changes the font of the text */
 }
 
 
 
 
-.img1 {
+.img1 { /*this mades it so only code in the class .img1 section are effected by the style changes*/
   width: 200px; /*this maxes out images size to the width of 200 pixels*/
   height: 300px;/*this maxes out the imges size to the height of 300 pixels*/
   float: left; /*this makes the image move or stay to the left side of the screen*/
@@ -75,7 +75,7 @@ li{
   margin-left:50px; /*this adds a buffer betweel any text or other elements by 50 pixels to the left*/  
 }
 
-.img2 {
+.img2 { /*this mades it so only code in the class .img2 section are effected by the style changes*/
   width: 200px; /*this maxes out images size to the width of 200 pixels*/
   height: 300px;  /*this maxes out the imges size to the height of 300 pixels*/
   float: right; /*this makes the image move or stay to the right side of the screen*/
@@ -83,7 +83,7 @@ li{
   margin-right: 50px; /*this adds a buffer betweel any text or other elements by 50 pixels to the right*/ 
 }
 
-.img3 {
+.img3 { /*this mades it so only code in the class .img3 section are effected by the style changes*/
   width: 200px; /*this maxes out images size to the width of 200 pixels*/
   height: 300px;  /*this maxes out the imges size to the height of 300 pixels*/
   float: left;  /*this makes the image move or stay to the left side of the screen*/
@@ -94,67 +94,67 @@ li{
 
 
 
-.pright {     
+.pright {     /*this mades it so only code in the class .pright section are effected by the style changes*/
   text-align: left; /*this aligns any text to the right*/
   margin-right: 50px; /*this adds a buffer of 50 pixels to any elemnts to the right*/
   font-size: 1.25em; /*increases text size*/
-  font-family: Arial Rounded MT Bold, Calibri, sans-serif;
+  font-family: Arial Rounded MT Bold, Calibri, sans-serif;  /*this changes the font of the text */
 }
 
-.pleft {
+.pleft {  /*this mades it so only code in the class .pleft section are effected by the style changes*/
   margin-left: 50px; /*this adds a buffer of 50 pixels to any elements to the left*/
   font-size: 1.25em; /*increases font size*/
-  font-family: Arial Rounded MT Bold, Calibri, sans-serif;
+  font-family: Arial Rounded MT Bold, Calibri, sans-serif;  /*this changes the font of the text */
 }
 
-.Member1 {
+.Member1 {  /*this mades it so only code in the class .member1 section are effected by the style changes*/
   margin-left: 50px;  /*this adds a buffer of 50 pixels to any elements to the left*/
   font-size: 2em;
-  font-family: Lucida Sans, Arial, sans-serif;
+  font-family: Lucida Sans, Arial, sans-serif;  /*this changes the font of the text */
 }
 
-.cast1{
+.cast1{ /*this mades it so only code in the class .cast1 section are effected by the style changes*/
   background-color: rgba(214, 210, 100, 0.8) /*this changed the background color of the class section cast 1 to yellow*/
 }
 
-.Member2 {
+.Member2 {  /*this mades it so only code in the class .member2 section are effected by the style changes*/
   text-align: right;  
   margin-right: 50px;
   padding-right: 10px;
   font-size: 2em;
-  font-family: Lucida Sans, Arial, sans-serif;
+  font-family: Lucida Sans, Arial, sans-serif;  /*this changes the font of the text */
 }
 
-.cast2{
+.cast2{ /*this mades it so only code in the class .cast2 section are effected by the style changes*/
   background-color: rgba(214, 210, 100, 0.8)  /*this changed the background color of the class section cast 2 to yellow*/
 }
 
-.Member3 {
+.Member3 {  /*this mades it so only code in the class .member3 section are effected by the style changes*/
   margin-left: 50px;
   font-size: 2em;
-  font-family: Lucida Sans, Arial, sans-serif;
+  font-family: Lucida Sans, Arial, sans-serif;  /*this changes the font of the text */
 }
 
-.cast3{
+.cast3{ /*this mades it so only code in the class .cast3 section are effected by the style changes*/
   background-color: rgba(214, 210, 100, 0.8)  /*this changed the background color of the class section cast 3 to yellow*/
 }
 
-.aud1 {         
-  float: left
+.aud1 {         /*this mades it so only code in the class .aud1 section are effected by the style changes*/
+  float: left /*floats audio the the left*/
 }
 
-.aud2 {
-  margin-left: 50px;
+.aud2 { /*this mades it so only code in the class .aud2 section are effected by the style changes*/
+  margin-left: 50px;  /*adds a buffer to elements above the video by 50 pixels*/
 }
 
-.video {
-  display: block;
-  margin: 0 auto;
-  margin-top: 30px;
+.video {  /*this mades it so only code in the class .video section are effected by the style changes*/
+  display: block; 
+  margin: 0 auto; 
+  margin-top: 30px; /*adds a buffer to elements above the video by 30 pixels*/
 }
 
-footer {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.9);
-  height: 100px;
+footer {  /*this mades it so only code in the footer element are effected by the style changes*/
+  text-align: center; /*this changes the alignment of all text to the centre */
+  background-color: rgba(255, 255, 255, 0.9); /*this changes the color of the footer element */
+  height: 100px;  /*this changes height of the footer section to a height of 100 pixels */
 }
