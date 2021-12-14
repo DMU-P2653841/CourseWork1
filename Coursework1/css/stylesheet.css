@@ -1,5 +1,5 @@
 
-body{                   /*changes background color of pages .*/
+body{                   /*this changes background color of all pages (home and cast pages).*/
 background-size: auto;
 background-color: skyblue;
 
@@ -7,7 +7,7 @@ background-color: skyblue;
 
 
 header {
-  text-align: center;   /*HEADER SECTION start*/
+  text-align: center;   /*HEADER SECTION start, aligned header text to the centre*/
 }
 
 header .simp{
@@ -32,11 +32,11 @@ header .simp{
 
 .externallink {
   background-color: rgba(250, 248, 14, 0.9); color: black;  /*changed background color of external link to rgba(250, 248, 14, 0.9) and text color to black  */
-  border: 10px;
-  box-shadow: 3px 10px;
-  text-align: center;
-  font-size: 1.2em;
-  font-family: Arial Black, Calibri, sans-serif;
+  border: 10px; /*added a black border 10 px*/
+  box-shadow: 3px 10px; /*this adds a black drop shadow like feature 3 pixels across 10 pixels down*/
+  text-align: center; /*this aligns text to the centre*/
+  font-size: 1.2em; /*increased text font by 0.2*/
+  font-family: Arial Black, Calibri, sans-serif; /*changed text font to Arial Black first if that is not supported switches to Calibri and then sans-serif*/
 }
 
 a{
@@ -54,13 +54,13 @@ a:hover{
   box-shadow: 3px 10px;  /* added bax shadow 3 pixels horizontally and 10 pixels vertically */
 }
 
-.synopsis{
-  font-size: 1.3em;
-  font-family: Arial Rounded MT Bold, Calibri (Body), sans-serif;
+.synopsis{ /*this code allows the following style changes to only effect those elements within the synopsis class*/
+  font-size: 1.3em; /*this increases font size by 0.3 of the original text size */
+  font-family: Arial Rounded MT Bold, Calibri (Body), sans-serif; /*this changes the font of the text */
 }
 
 li{
-  font-size: 1.3em;
+  font-size: 1.3em; /*this increases font size by 0.3 of the original text size*/
   font-family: Arial, Calibri, sans-serif;
 }
 
@@ -68,57 +68,57 @@ li{
 
 
 .img1 {
-  width: 200px;
-  height: 300px;
-  float: left;
-  margin-right: 10px;
-  margin-left:50px;      
+  width: 200px; /*this maxes out images size to the width of 200 pixels*/
+  height: 300px;/*this maxes out the imges size to the height of 300 pixels*/
+  float: left; /*this makes the image move or stay to the left side of the screen*/
+  margin-right: 10px; /*this adds a buffer between any text or other elements by 10 pixels to the right*/
+  margin-left:50px; /*this adds a buffer betweel any text or other elements by 50 pixels to the left*/  
 }
 
 .img2 {
-  width: 200px;
-  height: 300px;
-  float: right;
-  margin-left: 10px;
-  margin-right: 50px;
+  width: 200px; /*this maxes out images size to the width of 200 pixels*/
+  height: 300px;  /*this maxes out the imges size to the height of 300 pixels*/
+  float: right; /*this makes the image move or stay to the right side of the screen*/
+  margin-left: 10px;  /*this adds a buffer between any text or other elements by 10 pixels to the left*/
+  margin-right: 50px; /*this adds a buffer betweel any text or other elements by 50 pixels to the right*/ 
 }
 
 .img3 {
-  width: 200px;
-  height: 300px;
-  float: left;
-  margin-right: 10px;
-  margin-left:50px;
-  margin-bottom: 100px; 
+  width: 200px; /*this maxes out images size to the width of 200 pixels*/
+  height: 300px;  /*this maxes out the imges size to the height of 300 pixels*/
+  float: left;  /*this makes the image move or stay to the left side of the screen*/
+  margin-right: 10px; /*this adds a buffer between any text or other elements by 10 pixels to the right*/
+  margin-left:50px; /*this adds a buffer betweel any text or other elements by 50 pixels to the left*/  
+  margin-bottom: 100px; /*this adds a buffer betweel any text or other elements by 100 pixels from the bottom (underneath this element*/  
 }
 
 
 
 .pright {     
-  text-align: left;
-  margin-right: 50px;
-  font-size: 1.25em;
+  text-align: left; /*this aligns any text to the right*/
+  margin-right: 50px; /*this adds a buffer of 50 pixels to any elemnts to the right*/
+  font-size: 1.25em; /*increases text size*/
   font-family: Arial Rounded MT Bold, Calibri, sans-serif;
 }
 
 .pleft {
-  margin-left: 50px;
-  font-size: 1.25em;
+  margin-left: 50px; /*this adds a buffer of 50 pixels to any elements to the left*/
+  font-size: 1.25em; /*increases font size*/
   font-family: Arial Rounded MT Bold, Calibri, sans-serif;
 }
 
 .Member1 {
-  margin-left: 50px;
+  margin-left: 50px;  /*this adds a buffer of 50 pixels to any elements to the left*/
   font-size: 2em;
   font-family: Lucida Sans, Arial, sans-serif;
 }
 
 .cast1{
-  background-color: rgba(214, 210, 100, 0.8)
+  background-color: rgba(214, 210, 100, 0.8) /*this changed the background color of the class section cast 1 to yellow*/
 }
 
 .Member2 {
-  text-align: right;
+  text-align: right;  
   margin-right: 50px;
   padding-right: 10px;
   font-size: 2em;
@@ -126,7 +126,7 @@ li{
 }
 
 .cast2{
-  background-color: rgba(214, 210, 100, 0.8)
+  background-color: rgba(214, 210, 100, 0.8)  /*this changed the background color of the class section cast 2 to yellow*/
 }
 
 .Member3 {
@@ -136,7 +136,7 @@ li{
 }
 
 .cast3{
-  background-color: rgba(214, 210, 100, 0.8)
+  background-color: rgba(214, 210, 100, 0.8)  /*this changed the background color of the class section cast 3 to yellow*/
 }
 
 .aud1 {         
